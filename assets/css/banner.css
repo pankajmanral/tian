@@ -220,22 +220,15 @@
     }
 
     .banner .banner-card-wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        padding: 118px 0;
+        margin: 48px 0;
+        padding: 0px;
     }
 
     .banner .banner-card {
-        background-color: var(--bg-black);
         width: 100%;
         max-width: 100%;
-        display: flex;
-        padding: 48px 32px;
-        border-radius: 10px;
-        margin: 10px 0;
-        
+        margin: 0px;
+        margin-bottom: 15px;
     }
 
 }
@@ -264,6 +257,15 @@
 
     .banner .section-description {
         font-size: 25px;
+    }
+
+    .banner .banner-card-heading {
+        font-size: 30px;
+    }
+
+    .banner .banner-card-description {
+        font-size: 20px;
+        line-height: 26px;
     }
 }
 
