@@ -1,3 +1,16 @@
+const header = document.querySelector('header')
+const nav = document.querySelector('nav')
+
+window.addEventListener('scroll', function(){
+    if(window.scrollY >= 80){
+        header.style.boxShadow = 'rgba(135, 135, 135, 0.2) 0px 8px 24px'
+        nav.style.padding = '15px 0'
+    }else{
+        header.style.boxShadow = 'rgba(149, 157, 165, 0.2) 0px 0px 0px'
+        nav.style.padding = '40px 0'
+    }
+})
+
 let swiperInstance;
 function handleSwiper() {
     if (window.innerWidth <= 768) {

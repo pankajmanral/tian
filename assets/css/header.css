@@ -12,6 +12,7 @@ header nav {
     justify-content: space-between;
     align-items: center;
     padding: 40px 0;
+    transition: all .3s ease-in-out;
 }
 
 header .hamburger-menu {
