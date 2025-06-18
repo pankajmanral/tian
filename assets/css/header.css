@@ -1,0 +1,132 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--color-white);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+header .nav-list {
+    display: flex;
+    align-items: center;
+}
+
+header .nav-item {
+    margin-right: 20px;
+}
+
+header .nav-item:last-child {
+    margin-right: 0;
+}
+
+header .nav-link {
+    position: relative;
+    font-family: var(--primary-font);
+    color: var(--color-black);
+    font-weight: var(--fw-regular);
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 28px
+}
+
+header .nav-link::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: var(--bg-primary);
+    width: 0%;
+    bottom: 0;
+    left: 0;
+    transition: all .4s ease-in-out;
+}
+
+header .nav-link:hover::after {
+    width: 100%;
+}
+
+.contact-us {
+    text-decoration: none;
+    font-family: var(--primary-font);
+    background-color: var(--bg-primary);
+    border-radius: 8px;
+    padding: 14px 24px;
+    color: var(--color-white) !important;
+    border: 1px solid var(--bg-primary);
+    transition: all .3s ease-in-out;
+}
+
+.contact-us:hover {
+    background-color: transparent;
+    color: var(--bg-primary) !important;
+}
+
+header .mode {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+header .light-mode-img {
+    padding: 11px;
+    border: 1px solid var(--color-gray);
+    border-radius: 10px;
+}
+
+@media (max-width: 1440px) {
+    .container {
+        max-width: 1300px;
+    }
+}
+
+@media (max-width:1300px) {
+    .container {
+        max-width: 1250px;
+    }
+}
+
+/* Large devices (≤1200px) */
+@media (max-width: 1201px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (max-width:1025px) {
+    .container {
+        max-width: 865px;
+    }
+}
+
+/* Medium devices (≤992px) */
+@media (max-width: 993px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+/* Small devices (≤768px) */
+@media (max-width: 769px) {
+    .container {
+        max-width: 500px;
+    }
+
+    header .nav-list {
+        display: none;
+    }
+}
+
+/* Extra small devices (≤430px) */
+@media (max-width: 525px) {
+    .container {
+        max-width: 360px;
+        margin: 0 auto;
+    }
+}
