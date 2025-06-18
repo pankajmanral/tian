@@ -5,51 +5,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tian - Homepage</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/fonts.css">
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/banner.css">
+    <link rel="stylesheet" href="assets/css/courses.css">
 
 </head>
 
 <body>
 
+    <header>
+        <div class="container">
+            <nav>
+                <a href="" class="brand-logo">
+                    <img src="./assets/images/tianLogo.webp" alt="" class="brand-img">
+                </a>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Course</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="contact-us">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="mode">
+                            <img src="./assets/images/sun.webp" height="24" width="24" alt="" class="light-mode-img">
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
     <section class="banner">
         <!-- <div class="banner-img-wrapper">
             <img src="./assets/images/banner-img-resized.webp" alt="tian banner image" class="banner-img" height="1747" width="1747">
         </div> -->
-        <header>
-            <div class="container">
-                <nav>
-                    <a href="" class="brand-logo">
-                        <img src="./assets/images/tianLogo.webp" alt="" class="brand-img">
-                    </a>
-                    <ul class="nav-list">
-                        <li class="nav-item">
-                            <a href="" class="nav-link">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">About us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">Course</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">FAQ</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="contact-us">Contact Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <button class="mode">
-                                <img src="./assets/images/sun.webp" height="24" width="24" alt=""
-                                    class="light-mode-img">
-                            </button>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+
         <div class="container">
             <div class="banner-text-content">
                 <h1 class="section-heading">
@@ -70,7 +75,7 @@
                 </div>
             </div>
         </div>
-        <div class="container">
+        <!-- <div class="container">
             <div class="banner-card-wrapper">
                 <div class="banner-card">
                     <div class="banner-card-icon">
@@ -112,8 +117,128 @@
                     </div>
                 </div>
             </div>
+        </div> -->
+    </section>
+
+    <section class="courses">
+        <div class="container">
+            <h2 class="section-heading">
+                Popular courses
+            </h2>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="courses-card">
+                            <div class="courses-img-wrapper">
+                                <img src="./assets/images/courseImage.webp" width="323" height="200" alt=""
+                                    class="course-img">
+                            </div>
+                            <div class="course-text-content">
+                                <h3 class="course-title">
+                                    Frontend Development with JavaScript
+                                </h3>
+                                <p class="course-teacher">
+                                    By Cristian Muñoz
+                                </p>
+                                <div class="course-duration">
+                                    <img src="./assets/images/timer.png" width="17" height="17" alt=""
+                                        class="timer-icon">
+                                    <p class="course-time">Duration : <span class="duration-count">7</span> weeks</p>
+                                </div>
+                                <p class="course-price">$<span class="price">80.00</span> USD <span
+                                        class="course-discount">80</span>% discount</p>
+                                <button class="buy-now-btn">
+                                    Buy now $ <span class="buy-now-price">14.00</span>USD
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="courses-card">
+                            <div class="courses-img-wrapper">
+                                <img src="./assets/images/courseImage.webp" width="323" height="200" alt=""
+                                    class="course-img">
+                            </div>
+                            <div class="course-text-content">
+                                <h3 class="course-title">
+                                    Frontend Development with JavaScript
+                                </h3>
+                                <p class="course-teacher">
+                                    By Cristian Muñoz
+                                </p>
+                                <div class="course-duration">
+                                    <img src="./assets/images/timer.png" width="17" height="17" alt=""
+                                        class="timer-icon">
+                                    <p class="course-time">Duration : <span class="duration-count">7</span> weeks</p>
+                                </div>
+                                <p class="course-price">$<span class="price">80.00</span> USD <span
+                                        class="course-discount">80</span>% discount</p>
+                                <button class="buy-now-btn">
+                                    Buy now $ <span class="buy-now-price">14.00</span>USD
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="courses-card">
+                            <div class="courses-img-wrapper">
+                                <img src="./assets/images/courseImage.webp" width="323" height="200" alt=""
+                                    class="course-img">
+                            </div>
+                            <div class="course-text-content">
+                                <h3 class="course-title">
+                                    Frontend Development with JavaScript
+                                </h3>
+                                <p class="course-teacher">
+                                    By Cristian Muñoz
+                                </p>
+                                <div class="course-duration">
+                                    <img src="./assets/images/timer.png" width="17" height="17" alt=""
+                                        class="timer-icon">
+                                    <p class="course-time">Duration : <span class="duration-count">7</span> weeks</p>
+                                </div>
+                                <p class="course-price">$<span class="price">80.00</span> USD <span
+                                        class="course-discount">80</span>% discount</p>
+                                <button class="buy-now-btn">
+                                    Buy now $ <span class="buy-now-price">14.00</span>USD
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="courses-card">
+                            <div class="courses-img-wrapper">
+                                <img src="./assets/images/courseImage.webp" width="323" height="200" alt=""
+                                    class="course-img">
+                            </div>
+                            <div class="course-text-content">
+                                <h3 class="course-title">
+                                    Frontend Development with JavaScript
+                                </h3>
+                                <p class="course-teacher">
+                                    By Cristian Muñoz
+                                </p>
+                                <div class="course-duration">
+                                    <img src="./assets/images/timer.png" width="17" height="17" alt=""
+                                        class="timer-icon">
+                                    <p class="course-time">Duration : <span class="duration-count">7</span> weeks</p>
+                                </div>
+                                <p class="course-price">$<span class="price">80.00</span> USD <span
+                                        class="course-discount">80</span>% discount</p>
+                                <button class="buy-now-btn">
+                                    Buy now $ <span class="buy-now-price">14.00</span>USD
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- </div> -->
         </div>
     </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
 
 </body>
 
