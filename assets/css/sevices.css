@@ -1,0 +1,115 @@
+.services {
+    position: relative;
+    padding: 160px 0;
+}
+
+.services .services-card {
+    display: flex;
+    align-items: center;
+}
+
+.services .service-img-wrapper {
+    width: 100%;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+.services .service-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.services .service-card-text {
+    margin-left: 192px;
+    width: 100%;
+    max-width: 671px;
+}
+
+.services .service-card-heading {
+    color: var(--color-black);
+    font-family: var(--primary-font);
+    font-size: 48px;
+    font-weight: var(--fw-bold);
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+
+.services .service-card-description {
+    color: var(--color-gray);
+    font-family: var(--primary-font);
+    font-size: 30px;
+    font-weight: var(--fw-regular);
+    line-height: 39px;
+}
+
+@media (max-width: 1439px) {
+    .container {
+        max-width: 1300px;
+    }
+}
+
+/* Large devices (≤1200px) */
+@media (max-width: 1201px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (max-width:1024px) {
+    .container {
+        max-width: 884px;
+    }
+
+    .services .services-card {
+        flex-direction: column;
+        margin-bottom: 150px;
+    }
+
+    .services .services-card:last-child {
+        margin-bottom: 0;
+    }
+
+    .services .service-card-text {
+        margin-left: 0px;
+    }
+
+    .services .service-card-heading,
+    .services .service-card-description {
+        text-align: center;
+    }
+
+}
+
+/* Medium devices (≤992px) */
+@media (max-width: 993px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+/* Small devices (≤768px) */
+@media (max-width: 769px) {
+    .container {
+        max-width: 500px;
+    }
+}
+
+/* Extra small devices (≤430px) */
+@media (max-width: 525px) {
+    .container {
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    .services .service-card-heading {
+        font-size: 30px;
+        line-height: 38px
+    }
+
+    .services .service-card-description {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
