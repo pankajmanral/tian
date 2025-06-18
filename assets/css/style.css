@@ -140,11 +140,17 @@ table {
 
     --bg-primary: #8B5CF6; 
     --bg-black : #000;
+    --dark-bg-primary : #DDD6FE;
 
     --color-white : #FFF;
     --color-black :#171717;
     --color-gray : #737373;
 
+}
+
+body{
+    background-color: var(--color-white);
+    transition: all .2s ease-in-out;
 }
 
 .container{

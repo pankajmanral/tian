@@ -36,7 +36,9 @@
 }
 
 .courses .courses-img-wrapper {
+    width: 100%;
     margin-bottom: 24px;
+    overflow: hidden;
 }
 
 .courses .course-img {

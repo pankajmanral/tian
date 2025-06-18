@@ -6,6 +6,11 @@
 .services .services-card {
     display: flex;
     align-items: center;
+    margin-bottom: 150px;
+}
+
+.services .services-card:last-child{
+    margin-bottom: 0;
 }
 
 .services .service-img-wrapper {
@@ -19,6 +24,12 @@
     height: auto;
     object-fit: cover;
     object-position: center;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+.services .service-img:hover{
+    scale: 1.03;
 }
 
 .services .service-card-text {
@@ -64,11 +75,6 @@
 
     .services .services-card {
         flex-direction: column;
-        margin-bottom: 150px;
-    }
-
-    .services .services-card:last-child {
-        margin-bottom: 0;
     }
 
     .services .service-card-text {
