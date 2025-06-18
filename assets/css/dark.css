@@ -4,12 +4,32 @@
         transition: all 0.3s ease-in-out;
     }
 
-    header .brand-logo {
-        mix-blend-mode: multiply;
+    .logo-svg .logo-fill {
+        fill: var(--color-white);
+    }
+
+    header .brand-title {
+        color: var(--color-white);
     }
 
     header .nav-link {
         color: var(--color-white);
+    }
+
+    header aside {
+        background-color: var(--color-black);
+    }
+
+    header aside .mobile-nav-link {
+        color: var(--color-white);
+    }
+
+    header .hamburger-menu {
+        border: 1px solid var(--color-white);
+    }
+
+    header .menu-line {
+        background-color: var(--color-white);
     }
 
     .contact-us {
@@ -18,8 +38,16 @@
         border: 1px solid var(--dark-bg-primary);
     }
 
+    .mode-svg .mode-fill {
+        fill: var(--color-white);
+    }
+
     .banner .banner-text-content {
         color: var(--color-white);
+    }
+
+    .banner .right-arrow-svg .right-arrow-stroke {
+        stroke: var(--dark-bg-primary) ;
     }
 
     .courses .section-heading,
@@ -39,7 +67,7 @@
         color: var(--dark-bg-primary);
     }
 
-    .services .service-card-heading{
+    .services .service-card-heading {
         color: var(--color-white);
     }
 

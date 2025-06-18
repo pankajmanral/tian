@@ -87,8 +87,17 @@
     margin-bottom: 139px;
 }
 
-.banner .arrow-right {
+.banner .watch-video:hover .right-arrow-svg{
+    transform: rotate(360deg);
+}
+
+.banner .right-arrow-svg {
     margin-left: 8px;
+    transition: all .2s ease-in-out;
+}
+
+.banner .right-arrow-svg .right-arrow-stroke{
+    stroke: #8B5CF6;
 }
 
 .banner .banner-card-wrapper {

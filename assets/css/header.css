@@ -23,6 +23,26 @@ header aside {
     z-index: 10;
 }
 
+header .brand-logo {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+header .brand-title {
+    color: var(--color-black);
+    font-family: var(--primary-font);
+    font-size: 22.593px;
+    font-style: normal;
+    font-weight: var(--fw-bold);
+    line-height: 22.5px;
+    margin-left: 5.65px;
+}
+
+.logo-svg .logo-fill{
+    fill : #262626;
+}
+
 header .nav-list {
     display: flex;
     align-items: center;
@@ -79,15 +99,18 @@ header .nav-link:hover::after {
 }
 
 header .mode {
+    display: flex;
+    align-items: center;
     border: none;
     background-color: transparent;
     cursor: pointer;
-}
-
-header .light-mode-img {
     padding: 11px;
     border: 1px solid var(--color-gray);
     border-radius: 10px;
+}
+
+.mode-svg .mode-fill{
+    fill: #171717;
 }
 
 @media (max-width: 1440px) {
