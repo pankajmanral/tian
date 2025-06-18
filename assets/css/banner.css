@@ -23,7 +23,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 250px;
+    margin-top: 267px;
 }
 
 .banner .section-heading {
@@ -233,7 +233,7 @@
     }
 
     .banner .watch-video {
-        margin-bottom: 94px;
+        margin-bottom: 94.5px;
     }
 
 }
