@@ -86,6 +86,11 @@ footer .footer-right>ul>li>a {
     font-size: 1.5rem;
     font-weight: var(--fw-regular);
     line-height: 1.5rem;
+    transition: all .3s ease-in-out;
+}
+
+footer .footer-right>ul>li>a:hover {
+    color: var(--bg-primary);
 }
 
 footer .footer-svg{

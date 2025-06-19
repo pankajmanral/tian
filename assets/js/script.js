@@ -1,3 +1,5 @@
+AOS.init()
+
 const header = document.querySelector('header')
 const nav = document.querySelector('nav')
 
@@ -73,5 +75,17 @@ toggleBtn.addEventListener('click', function(){
         document.querySelector('body').style.backgroundColor = '#171717'
     }else{
         document.querySelector('body').style.backgroundColor = '#FFF'
+    }
+})
+
+const mobileToggleBtn = document.getElementById("mobile-dark-mode-btn")
+mobileToggleBtn.addEventListener('click', function(){
+    document.querySelector('body').classList.toggle('dark')
+    if(document.querySelector('body').classList.contains('dark')){
+        document.querySelector('body').style.backgroundColor = '#171717'
+        this.textContent = 'Light Mode'
+    }else{
+        document.querySelector('body').style.backgroundColor = '#FFF'
+        this.textContent = 'Dark Mode'
     }
 })

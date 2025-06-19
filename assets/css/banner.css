@@ -1,6 +1,6 @@
-/* .banner {
+.banner {
     position: relative;
-    background-image: url('../images/banner-img-resized.webp');
+    /* background-image: url('../images/banner-img-resized.webp');
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -11,11 +11,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-} */
-
-.banner {
-    position: relative;
+    align-items: center; */
 }
 
 .banner .banner-text-content {

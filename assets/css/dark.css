@@ -5,7 +5,7 @@
     }
 
     .scroll-btn {
-        color: var(--color-white);
+        color: var(--dark-bg-primary);
     }
 
     .logo-svg .logo-fill {
@@ -21,11 +21,16 @@
     }
 
     header aside {
-        background-color: var(--color-black);
+        background-color: var(--dark-bg-primary);
     }
 
+    header .mobile-dark-mode-btn {
+        border: 0.0625rem solid var(--bg-primary);
+    }
+
+
     header aside .mobile-nav-link {
-        color: var(--color-white);
+        color: var(--color-black);
     }
 
     header .menu-line {
@@ -35,7 +40,7 @@
     .contact-us {
         background-color: var(--dark-bg-primary);
         color: var(--bg-primary) !important;
-        border: 1px solid var(--dark-bg-primary);
+        border: 0.0625rem solid var(--dark-bg-primary);
     }
 
     .mode-svg .mode-fill {
@@ -60,7 +65,7 @@
     .banner .start-travel {
         background-color: var(--dark-bg-primary);
         color: var(--bg-primary) !important;
-        border: 1px solid var(--dark-bg-primary);
+        border: 0.0625rem solid var(--dark-bg-primary);
     }
 
     .banner .watch-video {
@@ -80,7 +85,7 @@
     }
 
     footer .footer-item {
-        border: 1px solid var(--color-white);
+        border: 0.0625rem solid var(--color-white);
     }
 
     footer .footer-svg {

@@ -28,7 +28,7 @@
     transition: all .3s ease-in-out;
 }
 
-.courses .course-tag{
+.courses .course-tag {
     position: absolute;
     background-color: var(--bg-primary);
     width: max-content;
@@ -41,7 +41,7 @@
     left: 1.8125rem;
 }
 
-.courses .courses-card:hover{
+.courses .courses-card:hover {
     box-shadow: rgba(135, 135, 135, 0.607) 0rem 0.5rem 1.5rem;
 }
 
@@ -177,6 +177,12 @@
     .courses {
         position: relative;
         padding: 3rem 0;
+    }
+
+    .courses .swiper {
+        width: 100%;
+        height: 100%;
+        padding: 0;
     }
 
 }

@@ -1,6 +1,6 @@
 .about {
     position: relative;
-    padding-top: 128px;
+    padding-top: 8rem;
 }
 
 .about .about-img-wrapper {
@@ -31,22 +31,22 @@
     color: var(--color-white);
     text-align: center;
     font-family: var(--primary-font);
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: var(--fw-bold);
-    line-height: 38px;
-    margin-bottom: 32px;
+    line-height: 2.375rem;
+    margin-bottom: 2rem;
 }
 
 .about .section-description {
     width: 100%;
-    max-width: 1094px;
+    max-width: 68.375rem;
     color: var(--color-white);
     text-align: center;
     font-family: var(--primary-font);
     /* figma size 38 increased to 40 */
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: var(--fw-bold);
-    line-height: 38px;
+    line-height: 2.375rem;
     transition: all .3s ease-in-out;
 }
 
@@ -70,7 +70,7 @@
 
     .about .section-description {
         /* figma size 38 increased to 40 */
-        font-size: 41px;
+        font-size: 2.5625rem;
     }
 }
 
@@ -96,13 +96,13 @@
     }
 
     .about .section-heading {
-        font-size: 30px;
-        line-height: 38px;
+        font-size: 1.875rem;
+        line-height: 2.375rem;
     }
 
     .about .section-description {
-        font-size: 24px;
-        line-height: 32px;
+        font-size: 1.5rem;
+        line-height: 2rem;
     }
 
 }

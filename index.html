@@ -10,6 +10,8 @@
 
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/dark.css">
     <link rel="stylesheet" href="assets/css/fonts.css">
@@ -24,7 +26,7 @@
 
 <body>
 
-    <button id="sroll-to-top-btn">
+    <button id="sroll-to-top-btn" title="scroll to top button">
         <i class="ri-arrow-up-circle-line scroll-btn"></i>
     </button>
 
@@ -67,7 +69,7 @@
                         <a href="" class="contact-us">Contact Us</a>
                     </li>
                     <li class="nav-item">
-                        <button class="mode" id="toggle-btn">
+                        <button class="mode" id="toggle-btn" title="light dark mode toggle buttom">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" class="mode-svg">
                                 <path
@@ -102,6 +104,7 @@
                 <li class="mobile-nav-item">
                     <a href="" class="mobile-nav-link">FAQ</a>
                 </li>
+                <button class="mobile-dark-mode-btn" id="mobile-dark-mode-btn">Dark Mode</button>
             </ul>
         </aside>
     </header>
@@ -139,10 +142,11 @@
             </div>
         </div>
         <div class="container">
-            <div class="banner-card-wrapper">
+            <div class="banner-card-wrapper" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-anchor-placement="center-bottom">
                 <div class="banner-card">
                     <div class="banner-card-icon">
-                        <img src="./assets/images/clipboard.webp" alt="" height="28" width="28" class="banner-icon-img">
+                        <img src="./assets/images/clipboard.webp" loading="lazy" alt="banner icon iamge" height="28"
+                            width="28" class="banner-icon-img">
                     </div>
                     <div class="banner-card-content">
                         <h2 class="banner-card-heading">
@@ -155,7 +159,8 @@
                 </div>
                 <div class="banner-card">
                     <div class="banner-card-icon">
-                        <img src="assets/images/people.webp" alt="" height="28" width="28" class="banner-icon-img">
+                        <img src="assets/images/people.webp" loading="lazy" alt="banner icon iamge" height="28"
+                            width="28" class="banner-icon-img">
                     </div>
                     <div class="banner-card-content">
                         <h2 class="banner-card-heading">
@@ -168,7 +173,8 @@
                 </div>
                 <div class="banner-card">
                     <div class="banner-card-icon">
-                        <img src="assets/images/people.webp" alt="" height="28" width="28" class="banner-icon-img">
+                        <img src="assets/images/people.webp" loading="lazy" alt="banner icon iamge" height="28"
+                            width="28" class="banner-icon-img">
                     </div>
                     <div class="banner-card-content">
                         <h2 class="banner-card-heading">
@@ -190,11 +196,11 @@
             </h2>
             <div class="swiper">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
+                    <div class="swiper-slide"  data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-anchor-placement="center-bottom">
                         <div class="courses-card">
                             <div class="courses-img-wrapper">
-                                <img src="./assets/images/courseImage.webp" width="323" height="200" alt=""
-                                    class="course-img">
+                                <img src="./assets/images/courseImage.webp" loading="lazy" width="323" height="200"
+                                    alt="course image" class="course-img">
                             </div>
                             <div class="course-text-content">
                                 <h3 class="course-title">
@@ -204,13 +210,13 @@
                                     By Cristian Muñoz
                                 </p>
                                 <div class="course-duration">
-                                    <img src="./assets/images/timer.png" width="17" height="17" alt=""
-                                        class="timer-icon">
+                                    <img src="./assets/images/timer.png" loading="lazy" width="17" height="17"
+                                        alt="timer icon" class="timer-icon">
                                     <p class="course-time">Duration : <span class="duration-count">7</span> weeks</p>
                                 </div>
                                 <p class="course-price">$<span class="price">80.00</span> USD <span
                                         class="course-discount">80</span>% discount</p>
-                                <button class="buy-now-btn">
+                                <button class="buy-now-btn" title="buy now button">
                                     Buy now $ <span class="buy-now-price">14.00</span>USD
                                 </button>
                             </div>
@@ -219,11 +225,11 @@
                             Development
                         </p>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide"  data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-anchor-placement="center-bottom">
                         <div class="courses-card">
                             <div class="courses-img-wrapper">
-                                <img src="./assets/images/courseImage.webp" width="323" height="200" alt=""
-                                    class="course-img">
+                                <img src="./assets/images/courseImage.webp" loading="lazy" width="323" height="200"
+                                    alt="course image" class="course-img">
                             </div>
                             <div class="course-text-content">
                                 <h3 class="course-title">
@@ -233,13 +239,13 @@
                                     By Cristian Muñoz
                                 </p>
                                 <div class="course-duration">
-                                    <img src="./assets/images/timer.png" width="17" height="17" alt=""
-                                        class="timer-icon">
+                                    <img src="./assets/images/timer.png" loading="lazy" width="17" height="17"
+                                        alt="timer icon" class="timer-icon">
                                     <p class="course-time">Duration : <span class="duration-count">7</span> weeks</p>
                                 </div>
                                 <p class="course-price">$<span class="price">80.00</span> USD <span
                                         class="course-discount">80</span>% discount</p>
-                                <button class="buy-now-btn">
+                                <button class="buy-now-btn" title="buy now button">
                                     Buy now $ <span class="buy-now-price">14.00</span>USD
                                 </button>
                             </div>
@@ -248,11 +254,11 @@
                             Development
                         </p>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide"  data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-anchor-placement="center-bottom">
                         <div class="courses-card">
                             <div class="courses-img-wrapper">
-                                <img src="./assets/images/courseImage.webp" width="323" height="200" alt=""
-                                    class="course-img">
+                                <img src="./assets/images/courseImage.webp" loading="lazy" width="323" height="200"
+                                    alt="course image" class="course-img">
                             </div>
                             <div class="course-text-content">
                                 <h3 class="course-title">
@@ -262,13 +268,13 @@
                                     By Cristian Muñoz
                                 </p>
                                 <div class="course-duration">
-                                    <img src="./assets/images/timer.png" width="17" height="17" alt=""
-                                        class="timer-icon">
+                                    <img src="./assets/images/timer.png" loading="lazy" width="17" height="17"
+                                        alt="timer icon" class="timer-icon">
                                     <p class="course-time">Duration : <span class="duration-count">7</span> weeks</p>
                                 </div>
                                 <p class="course-price">$<span class="price">80.00</span> USD <span
                                         class="course-discount">80</span>% discount</p>
-                                <button class="buy-now-btn">
+                                <button class="buy-now-btn" title="buy now button">
                                     Buy now $ <span class="buy-now-price">14.00</span>USD
                                 </button>
                             </div>
@@ -277,11 +283,11 @@
                             Development
                         </p>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide"  data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-anchor-placement="center-bottom">
                         <div class="courses-card">
                             <div class="courses-img-wrapper">
-                                <img src="./assets/images/courseImage.webp" width="323" height="200" alt=""
-                                    class="course-img">
+                                <img src="./assets/images/courseImage.webp" loading="lazy" width="323" height="200"
+                                    alt="course image" class="course-img">
                             </div>
                             <div class="course-text-content">
                                 <h3 class="course-title">
@@ -291,13 +297,13 @@
                                     By Cristian Muñoz
                                 </p>
                                 <div class="course-duration">
-                                    <img src="./assets/images/timer.png" width="17" height="17" alt=""
-                                        class="timer-icon">
+                                    <img src="./assets/images/timer.png" loading="lazy" width="17" height="17"
+                                        alt="timer icon" class="timer-icon">
                                     <p class="course-time">Duration : <span class="duration-count">7</span> weeks</p>
                                 </div>
                                 <p class="course-price">$<span class="price">80.00</span> USD <span
                                         class="course-discount">80</span>% discount</p>
-                                <button class="buy-now-btn">
+                                <button class="buy-now-btn" title="buy now button">
                                     Buy now $ <span class="buy-now-price">14.00</span>USD
                                 </button>
                             </div>
@@ -313,11 +319,12 @@
     </section>
 
     <section class="about">
-        <div class="about-img-wrapper">
+        <div class="about-img-wrapper" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-anchor-placement="center-bottom">
             <picture>
                 <source media="(max-width:525px)" srcset="assets/images/purple-gradient-sm.webp" />
                 <source media="(max-width:1024px)" srcset="assets/images/purple-gradient-md.webp" />
-                <img src="assets/images/purple-gradient-lg.webp" width="1730" height="600" alt="" class="about-img">
+                <img src="assets/images/purple-gradient-lg.webp" width="1730" height="600" alt="about image"
+                    class="about-img" loading="lazy">
             </picture>
         </div>
         <div class="container">
@@ -337,12 +344,12 @@
     <section class="services">
         <div class="container">
             <div class="services-card-wrapper">
-                <div class="services-card">
+                <div class="services-card" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-anchor-placement="center-bottom">
                     <div class="service-img-wrapper">
                         <picture>
                             <source media="(max-width:525px)" srcset="assets/images/computer-img-sm.webp" />
                             <img src="assets/images/computer-img-lg.webp" width="500" height="500" alt="computer image"
-                                class="service-img">
+                                class="service-img" loading="lazy">
                         </picture>
                     </div>
                     <div class="service-card-text">
@@ -356,12 +363,12 @@
                         </p>
                     </div>
                 </div>
-                <div class="services-card">
+                <div class="services-card" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-anchor-placement="center-bottom">
                     <div class="service-img-wrapper">
                         <picture>
                             <source media="(max-width:525px)" srcset="assets/images/community-img-sm.webp" />
                             <img src="assets/images/community-img-lg.webp" width="500" height="500" alt="computer image"
-                                class="service-img">
+                                class="service-img" loading="lazy">
                         </picture>
                     </div>
                     <div class="service-card-text">
@@ -373,12 +380,12 @@
                         </p>
                     </div>
                 </div>
-                <div class="services-card">
+                <div class="services-card" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-anchor-placement="center-bottom">
                     <div class="service-img-wrapper">
                         <picture>
                             <source media="(max-width:525px)" srcset="/assets/images/find-img-sm.webp" />
                             <img src="/assets/images/find-img-lg.webp" width="500" height="500" alt="computer image"
-                                class="service-img">
+                                class="service-img" loading="lazy">
                         </picture>
                     </div>
                     <div class="service-card-text">
@@ -521,10 +528,10 @@
                     <ul class="resources-list">
                         <h2 class="footer-heading">Resources</h2>
                         <li class="resources-item">
-                            <a href="" class="resources-link">Courses</a>
+                            <a href="" class="resources-link">Career</a>
                         </li>
                         <li class="resources-item">
-                            <a href="" class="resources-link">Development</a>
+                            <a href="" class="resources-link">Blog</a>
                         </li>
                     </ul>
                     <ul class="company-list">
@@ -544,6 +551,7 @@
         </div>
     </footer>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="assets/js/header.js"></script>
     <script src="assets/js/script.js"></script>
