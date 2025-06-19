@@ -131,39 +131,42 @@ table {
     border-spacing: 0;
 }
 
-:root{
-    --primary-font : 'Inter-Tight-Regular';
-    --secondary-font : 'Inter-Tight-Light';
+:root {
+    --primary-font: 'Inter-Tight-Regular';
+    --secondary-font: 'Inter-Tight-Light';
 
-    --fw-regular : 400;
-    --fw-bold : 600;
+    --fw-regular: 400;
+    --fw-bold: 600;
 
-    --bg-primary: #8B5CF6; 
-    --bg-black : #000;
-    --dark-bg-primary : #DDD6FE;
-    --bg-white : #FFF;
+    --bg-primary: #8B5CF6;
+    --bg-black: #000;
+    --dark-bg-primary: #DDD6FE;
+    --bg-white: #FFF;
 
-    --color-white : #F5F5F5;
-    --color-black :#171717;
-    --color-gray : #737373;
+    --color-white: #F5F5F5;
+    --color-black: #171717;
+    --color-gray: #737373;
 
 }
 
-body{
+body {
     background-color: var(--bg-white);
     transition: all .2s ease-in-out;
 }
 
-.container{
-    width: 100%;
-    max-width: 1456px;
-    margin: 0 auto;
-    padding-left: 16px;
-    padding-right: 16px;
-    border: 1px solid rgb(255, 183, 183);
+body::selection{
+    background-color: var(--bg-primary);
+    color: var(--color-white);
 }
 
-#sroll-to-top-btn{
+.container {
+    width: 100%;
+    max-width: 93.125rem;
+    margin: 0 auto;
+    /* border: 1px solid rgb(255, 183, 183); */
+}
+
+#sroll-to-top-btn {
     position: fixed;
     bottom: 1.25rem;
     right: 1.25rem;
@@ -174,7 +177,17 @@ body{
     display: none;
 }
 
-.scroll-btn{
+.scroll-btn {
     font-size: 3.125rem;
     color: var(--bg-primary);
+}
+
+.primary-btn {
+    text-decoration: none;
+    font-family: var(--primary-font);
+    background-color: var(--bg-primary);
+    border-radius: 0.5rem;
+    padding: 0.875rem 1.5rem;
+    transition: all .3s ease-in-out;
+    font-size: 1rem;
 }

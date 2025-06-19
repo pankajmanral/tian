@@ -1,17 +1,16 @@
 .banner {
     position: relative;
-    /* background-image: url('../images/banner-img-resized.webp');
-    background-size: cover;
-    background-position: top center;
+    background-image: url('../images/banner-bg.png');
+    /* background-size: cover; */
+    background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100vh;
+    height: 1453px;
     width: 100%;
-    z-index: -1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
+    z-index: 1;
 }
 
 .banner .banner-text-content {
@@ -51,18 +50,10 @@
 }
 
 .banner .start-travel {
-    font-family: var(--primary-font);
-    font-size: 1rem;
-    font-weight: var(--fw-regular);
-    line-height: 100%;
-    letter-spacing: 0.02rem;
-    text-decoration: none;
+    font-weight: var(--fw-bold);
     color: var(--color-white);
     background-color: var(--bg-primary);
-    padding: 0.875rem 2rem;
-    border-radius: 0.5rem;
     margin-bottom: 0.75rem;
-    transition: all .3s ease-in-out;
 }
 
 .banner .start-travel:hover {
@@ -113,6 +104,12 @@
     width: 100%;
     max-width: 30.375rem;
     margin: 0.4688rem;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.banner .banner-card:hover{
+    scale: 1.02;
 }
 
 .banner .banner-card-icon{

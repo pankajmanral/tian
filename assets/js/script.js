@@ -5,11 +5,9 @@ const nav = document.querySelector('nav')
 
 window.addEventListener('scroll', function(){
     if(window.scrollY >= 80){
-        header.style.boxShadow = 'rgba(135, 135, 135, 0.2) 0px 8px 24px'
-        nav.style.padding = '15px 0'
+        header.classList.add('sticky-header')
     }else{
-        header.style.boxShadow = 'rgba(149, 157, 165, 0.2) 0px 0px 0px'
-        nav.style.padding = '40px 0'
+        header.classList.remove('sticky-header')
     }
 })
 
