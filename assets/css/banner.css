@@ -52,12 +52,15 @@
 .banner .start-travel {
     font-weight: var(--fw-bold);
     color: var(--color-white);
+    border: 1px solid var(--bg-primary);
     background-color: var(--bg-primary);
     margin-bottom: 0.75rem;
 }
 
 .banner .start-travel:hover {
-    transform: translateY(-0.1875rem);
+    background-color: transparent;
+    border: 1px solid var(--bg-primary);
+    color: var(--bg-primary);
 }
 
 .banner .watch-video {
@@ -75,11 +78,11 @@
 }
 
 .banner .watch-video:hover .right-arrow-svg{
-    transform: rotate(360deg);
+    transform: translateX(10px);
 }
 
 .banner .right-arrow-svg {
-    margin-left: 0.5rem;
+    margin-left: 0.3rem;
     transition: all .2s ease-in-out;
 }
 

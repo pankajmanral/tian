@@ -21,7 +21,7 @@
 
 .courses .courses-card {
     position: relative;
-    border: 0.0625rem solid var(--color-gray);
+    border: 0.0625rem solid #E5E5E5;
     padding: 0.625rem;
     border-radius: 1rem;
     cursor: pointer;
@@ -122,6 +122,13 @@
     border-radius: 0.5rem;
     white-space: nowrap;
     cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.courses .buy-now-btn:hover{
+    background-color: transparent;
+    border: 1px solid var(--bg-primary);
+    color: var(--bg-primary);
 }
 
 @media (max-width: 1439px) {
@@ -140,6 +147,10 @@
 @media (max-width:1025px) {
     .container {
         max-width: 884px;
+    }
+
+    .courses {
+        padding-bottom: 48px;
     }
 }
 

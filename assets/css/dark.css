@@ -37,6 +37,15 @@
         background-color: var(--color-white);
     }
 
+    header .nav-link.active {
+        color: var(--dark-bg-primary);
+    }
+
+
+    header .nav-link::after {
+        background-color: var(--dark-bg-primary);
+    }
+
     .contact-us {
         background-color: var(--dark-bg-primary);
         color: var(--bg-primary) !important;
@@ -72,6 +81,12 @@
         color: var(--dark-bg-primary);
     }
 
+    .courses .course-tag,
+    .courses .buy-now-btn {
+        background-color: var(--dark-bg-primary);
+        color: #4C1D95;
+    }
+
     .services .service-card-heading {
         color: var(--color-white);
     }
@@ -94,5 +109,9 @@
 
     footer .linkedin-svg-fill {
         fill: var(--color-black);
+    }
+
+    footer .footer-right>ul>li>a::after {
+        background-color: var(--dark-bg-primary);
     }
 }

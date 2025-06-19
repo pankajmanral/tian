@@ -182,6 +182,7 @@ body::selection{
     color: var(--bg-primary);
 }
 
+
 .primary-btn {
     text-decoration: none;
     font-family: var(--primary-font);

@@ -67,6 +67,10 @@
     .container {
         max-width: 884px;
     }
+    
+    .about{
+        padding-top: 0rem;
+    }
 
     .about .section-description {
         /* figma size 38 increased to 40 */
