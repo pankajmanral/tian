@@ -1,38 +1,53 @@
 .courses {
     position: relative;
-    padding: 128px 0;
+    padding: 8rem 0;
 }
 
 .courses .section-heading {
     color: var(--color-black);
     font-family: var(--primary-font);
-    font-size: 38px;
+    font-size: 2.375rem;
     font-weight: var(--fw-bold);
-    line-height: 38px;
+    line-height: 2.375rem;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 
 .courses .swiper {
     width: 100%;
     height: 100%;
+    padding: 0.9375rem;
 }
 
 .courses .courses-card {
-    border: 1px solid var(--color-gray);
-    padding: 10px;
-    border-radius: 16px;
+    position: relative;
+    border: 0.0625rem solid var(--color-gray);
+    padding: 0.625rem;
+    border-radius: 1rem;
     cursor: pointer;
     transition: all .3s ease-in-out;
 }
 
+.courses .course-tag{
+    position: absolute;
+    background-color: var(--bg-primary);
+    width: max-content;
+    color: var(--color-white);
+    font-family: var(--primary-font);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    z-index: 2;
+    top: 2.0625rem;
+    left: 1.8125rem;
+}
+
 .courses .courses-card:hover{
-    box-shadow: rgba(135, 135, 135, 0.607) 0px 8px 24px;
+    box-shadow: rgba(135, 135, 135, 0.607) 0rem 0.5rem 1.5rem;
 }
 
 .courses .courses-img-wrapper {
     width: 100%;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
     overflow: hidden;
 }
 
@@ -43,69 +58,70 @@
 .courses .course-title {
     color: var(--color-black);
     font-family: var(--primary-font);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: var(--fw-bold);
-    line-height: 32px;
-    margin-bottom: 8px;
+    line-height: 2rem;
+    margin-bottom: 0.5rem;
     width: 100%;
-    max-width: 322px;
+    max-width: 20.125rem;
 }
 
 .courses .course-teacher {
     color: var(--color-gray);
     font-family: var(--primary-font);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-style: normal;
     font-weight: var(--fw-regular);
-    line-height: 14px;
-    letter-spacing: 0.28px;
-    margin-bottom: 20px;
+    line-height: 0.875rem;
+    letter-spacing: 0.0175rem;
+    margin-bottom: 1.25rem;
 }
 
 .courses .course-duration {
     display: flex;
     align-items: center;
-    margin-bottom: 25.5px;
+    margin-bottom: 1.5938rem;
 }
 
 .courses .timer-icon {
-    margin-right: 5px;
+    margin-right: 0.3125rem;
 }
 
 .courses .course-time {
     font-family: var(--primary-font);
     color: var(--color-black);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 14px;
+    line-height: 0.875rem;
 }
 
 .courses .course-price {
     font-family: var(--primary-font);
     color: var(--color-gray);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0.28px;
-    margin-bottom: 8px;
+    line-height: 0.875rem;
+    letter-spacing: 0.0175rem;
+    margin-bottom: 0.5rem;
 }
 
 .courses .buy-now-btn {
     color: var(--color-white);
     font-family: var(--primary-font);
     background-color: var(--bg-primary);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 0.32px;
+    line-height: 1rem;
+    letter-spacing: 0.02rem;
     width: 100%;
-    padding: 10px 84.75px;
+    padding: 0.625rem 5.2969rem;
     border: none;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 @media (max-width: 1439px) {
@@ -147,7 +163,7 @@
     .swiper-slide {
         width: 100% !important;
         display: block !important;
-        margin-bottom: 24px;
+        margin-bottom: 1.5rem;
     }
 }
 
@@ -160,7 +176,7 @@
 
     .courses {
         position: relative;
-        padding: 48px 0;
+        padding: 3rem 0;
     }
 
 }

@@ -4,11 +4,15 @@
         transition: all 0.3s ease-in-out;
     }
 
+    .scroll-btn {
+        color: var(--color-white);
+    }
+
     .logo-svg .logo-fill {
         fill: var(--color-white);
     }
 
-    header .brand-title {
+    .brand-title {
         color: var(--color-white);
     }
 
@@ -22,10 +26,6 @@
 
     header aside .mobile-nav-link {
         color: var(--color-white);
-    }
-
-    header .hamburger-menu {
-        border: 1px solid var(--color-white);
     }
 
     header .menu-line {
@@ -47,7 +47,7 @@
     }
 
     .banner .right-arrow-svg .right-arrow-stroke {
-        stroke: var(--dark-bg-primary) ;
+        stroke: var(--dark-bg-primary);
     }
 
     .courses .section-heading,
@@ -71,4 +71,23 @@
         color: var(--color-white);
     }
 
+    footer .footer-heading {
+        color: var(--color-white);
+    }
+
+    footer .footer-right>ul>li>a {
+        color: var(--color-white);
+    }
+
+    footer .footer-item {
+        border: 1px solid var(--color-white);
+    }
+
+    footer .footer-svg {
+        fill: var(--color-white);
+    }
+
+    footer .linkedin-svg-fill {
+        fill: var(--color-black);
+    }
 }

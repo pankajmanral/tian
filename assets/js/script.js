@@ -11,6 +11,27 @@ window.addEventListener('scroll', function(){
     }
 })
 
+const scrollBtn = document.getElementById('sroll-to-top-btn')
+window.addEventListener('scroll', function(){
+    if(window.scrollY >= 150){
+        scrollBtn.style.display = 'block'
+    }else{
+        scrollBtn.style.display = 'none'
+    }
+})
+
+function scrollToTop(){
+    window.scroll({
+        top : 0,
+        left : 0,
+        behavior : 'smooth'
+    })
+}
+
+scrollBtn.addEventListener('click', function(){
+    scrollToTop()
+})
+
 let swiperInstance;
 function handleSwiper() {
     if (window.innerWidth <= 768) {

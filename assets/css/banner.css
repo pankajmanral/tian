@@ -23,27 +23,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 267px;
+    margin-top: 16.6875rem;
 }
 
 .banner .section-heading {
     font-family: var(--primary-font);
     text-align: center;
-    font-size: 80px;
+    font-size: 5rem;
     font-weight: var(--fw-bold);
     line-height: 110%;
-    margin-bottom: 40px;
-    max-width: 749px;
+    margin-bottom: 2.5rem;
+    max-width: 46.8125rem;
 }
 
 .banner .section-description {
     text-align: center;
     font-family: var(--secondary-font);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
     line-height: 130%;
-    margin-bottom: 40px;
-    max-width: 803px;
+    margin-bottom: 2.5rem;
+    max-width: 50.1875rem;
 }
 
 .banner .banner-btns {
@@ -56,35 +56,35 @@
 
 .banner .start-travel {
     font-family: var(--primary-font);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: var(--fw-regular);
     line-height: 100%;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02rem;
     text-decoration: none;
     color: var(--color-white);
     background-color: var(--bg-primary);
-    padding: 14px 32px;
-    border-radius: 8px;
-    margin-bottom: 12px;
+    padding: 0.875rem 2rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.75rem;
     transition: all .3s ease-in-out;
 }
 
 .banner .start-travel:hover {
-    transform: translateY(-3px);
+    transform: translateY(-0.1875rem);
 }
 
 .banner .watch-video {
     color: var(--bg-primary);
     font-family: var(--primary-font);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: var(--fw-bold);
     line-height: 100%;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02rem;
     text-decoration: none;
-    padding: 14px 24px;
+    padding: 0.875rem 1.5rem;
     display: flex;
     align-items: center;
-    margin-bottom: 139px;
+    margin-bottom: 8.6875rem;
 }
 
 .banner .watch-video:hover .right-arrow-svg{
@@ -92,7 +92,7 @@
 }
 
 .banner .right-arrow-svg {
-    margin-left: 8px;
+    margin-left: 0.5rem;
     transition: all .2s ease-in-out;
 }
 
@@ -105,49 +105,49 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 128px 0;
-    margin: -7.5px;
+    padding: 8rem 0;
+    margin: -0.4688rem;
 }
 
 .banner .banner-card {
     background-color: var(--bg-black);
     display: flex;
-    padding: 48px 0;
-    border-radius: 10px;
+    padding: 3rem 0;
+    border-radius: 0.625rem;
     width: 100%;
-    max-width: 486px;
-    margin: 7.5px;
+    max-width: 30.375rem;
+    margin: 0.4688rem;
 }
 
 .banner .banner-card-icon{
-    margin-left: 32px;
+    margin-left: 2rem;
 }
 
 .banner .banner-icon-img {
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 .banner .banner-card-content {
-    margin-left: 10px;
+    margin-left: 0.625rem;
 }
 
 .banner .banner-card-heading {
     color: var(--color-white);
     font-family: var(--primary-font);
-    font-size: 38px;
+    font-size: 2.375rem;
     font-weight: var(--fw-bold);
-    line-height: 38px;
-    margin-bottom: 10px;
+    line-height: 2.375rem;
+    margin-bottom: 0.625rem;
 }
 
 .banner .banner-card-description {
     color: var(--color-white);
     font-family: var(--secondary-font);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: var(--fw-regular);
-    line-height: 28px;
-    max-width: 322px;
+    line-height: 1.75rem;
+    max-width: 20.125rem;
 }
 
 @media (max-width: 1440px) {
@@ -169,13 +169,13 @@
     }
 
     .banner .banner-card-heading {
-        font-size: 34px;
-        line-height: 38px;
+        font-size: 2.125rem;
+        line-height: 2.375rem;
     }
 
     .banner .banner-card-description {
-        font-size: 14px;
-        line-height: 28px;
+        font-size: 0.875rem;
+        line-height: 1.75rem;
     }
 }
 
@@ -185,7 +185,7 @@
     }
 
     .banner .banner-card-wrapper {
-        margin: 48px 0;
+        margin: 3rem 0;
         padding: 0px;
     }
 
@@ -193,7 +193,7 @@
         width: 100%;
         max-width: 100%;
         margin: 0px;
-        margin-bottom: 15px;
+        margin-bottom: 0.9375rem;
     }
 
 }
@@ -212,21 +212,21 @@
     }
 
     .banner .section-heading {
-        font-size: 43px;
+        font-size: 2.6875rem;
         line-height: 100%
     }
 
     .banner .section-description {
-        font-size: 25px;
+        font-size: 1.5625rem;
     }
 
     .banner .banner-card-heading {
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 
     .banner .banner-card-description {
-        font-size: 20px;
-        line-height: 26px;
+        font-size: 1.25rem;
+        line-height: 1.625rem;
     }
 }
 
@@ -238,18 +238,18 @@
     }
 
     .banner .section-heading {
-        font-size: 38px;
+        font-size: 2.375rem;
         line-height: 100%
     }
 
     .banner .section-description {
         max-width: 100%;
-        font-size: 20px;
+        font-size: 1.25rem;
         line-height: 130%;
     }
 
     .banner .watch-video {
-        margin-bottom: 94.5px;
+        margin-bottom: 5.9063rem;
     }
 
 }

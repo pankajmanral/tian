@@ -142,7 +142,7 @@ table {
     --bg-black : #000;
     --dark-bg-primary : #DDD6FE;
 
-    --color-white : #FFF;
+    --color-white : #F5F5F5;
     --color-black :#171717;
     --color-gray : #737373;
 
@@ -155,7 +155,23 @@ body{
 
 .container{
     width: 100%;
-    max-width: 1490px;
+    max-width: 93.125rem;
     margin: 0 auto;
     /* border: 1px solid rgb(255, 183, 183); */
+}
+
+#sroll-to-top-btn{
+    position: fixed;
+    bottom: 1.25rem;
+    right: 1.25rem;
+    z-index: 10;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+.scroll-btn{
+    font-size: 3.125rem;
+    color: var(--color-black);
 }
